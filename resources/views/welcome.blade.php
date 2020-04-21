@@ -5,7 +5,9 @@
     <title>Ayni | Movimiento Politico Ayni</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+
 <style>
     body{
         background: url('/images/fondo-ayni.png') #fff;
@@ -57,7 +59,7 @@
             <h1></h1>
             <button class="btn btn-danger btn-lg" data-toggle="modal" data-target="#modal-form">
                 <i class="far fa-handshake mr-2"></i>
-                Se parte de nosotros
+                Únete a nosotros
             </button>
         </div>
         <div class="modal fade" id="modal-form" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -202,7 +204,7 @@
                                     <div class="form-group">
                                         <label >
                                             <i class="fas fa-map-signs mr-2"></i>
-                                            Avenida/Calle/Jiron
+                                            Avenida/Calle/Jirón
                                         </label>
                                         <input name="avenida" type="text" class="form-control">
                                     </div>
@@ -220,7 +222,7 @@
                                     <div class="form-group">
                                         <label >
                                             <i class="fas fa-map-signs mr-2"></i>
-                                            Urbanizacion/Sertor/Caserio
+                                            Urbanizacion/Sector/Caserio
                                         </label>
                                         <input name="urbanizacion" type="text" class="form-control">
                                     </div>
@@ -229,7 +231,7 @@
                                     <div class="form-group">
                                         <label >
                                             <i class="fas fa-phone-square-alt mr-"></i>
-                                            Telefono
+                                            Teléfono
                                         </label>
                                         <input name="telefono" type="text" class="form-control">
                                     </div>
@@ -246,8 +248,8 @@
                                 <div class="col-12 col-md-6">
                                     <div class="form-group">
                                         <label >
-                                            <i class="fas fa-at mr-2"></i>
-                                            Fotografia Carnet
+                                            <i class="fas fa-camera-retro"></i>
+                                            Fotografía (Peso máximo 1 MB)
                                         </label>
                                         <input name="image"  required type="file" class="form-control">
                                     </div>
